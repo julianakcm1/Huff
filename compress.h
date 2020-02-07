@@ -52,12 +52,6 @@ void get_pre_order_tree(NODE* tree, FILE* file);
 /** @return returns */
 bool is_leaf(NODE* current);
 
-// CALCULAR O TAMANHO DA ÁRVORE
-
-/** @param tree: */
-/** @return returns */
-ushort get_size_tree(NODE* tree);
-
 // FUNCOES DE HASH
 
 /** @return returns new_hash */
@@ -82,7 +76,15 @@ void create_freq_array(lli* frequence);
 /** @return returns */
 bool is_bit_i_set(ushort byte, int i);
 
-// CALCULAR LIXO
+// CALCULAR LIXO, TAMANHO DA ÁRVORE E MONTAR O CABEÇALHO
+
+ushort create_file_header(HASH* hash, lli frequence[], NODE* tree, uchar trash, ushort size_tree);
+
+void write_header(ushort header, FILE *compact_file);
+
+/** @param tree: */
+/** @return returns */
+ushort get_size_tree(NODE* tree);
 
 /** @param hash: */
 /** @param frequence: */

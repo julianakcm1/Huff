@@ -11,19 +11,10 @@
 #define lli long long int
 
 typedef struct node NODE;
-typedef struct node_tree_descompress NODE_DESCOM;
 typedef struct element ELEMENT;
 typedef struct hash_table HASH;
 typedef struct hash_node HASH_NODE;
 typedef struct priority_queue PRIORITY_QUEUE;
-
-// NO DA ARVORE DA DESCOMPACTACAO
-
-struct node_tree_descompress {
-    void* caracter; // uchar
-    NODE_DESCOM* left; 
-    NODE_DESCOM* right; 
-};
 
 // NO DE FILA E DE ARVORE
 
