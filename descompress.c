@@ -55,7 +55,7 @@ void descompact()
 
     // CONSTRUIR A ARVORE
     
-    i = 0; 
+    i = 0;
     NODE* tree = construct_tree(str, &i);
 
     // CONTAR OS BYTES DO ARQUIVO

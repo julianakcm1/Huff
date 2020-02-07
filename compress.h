@@ -13,7 +13,7 @@ void fill_priority_queue(lli* frequence, PRIORITY_QUEUE* queue);
 
 /** @param new_node: */
 /** @param queue: */
-void enqueue(NODE* new_node, PRIORITY_QUEUE* queue);
+void enqueue(NODE* new_node, PRIORITY_QUEUE* queue); 
 
 /** @param current: */
 void print_queue(NODE* current);

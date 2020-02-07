@@ -257,7 +257,7 @@ ushort get_size_tree(NODE* tree)
     return 1 + get_size_tree(tree -> left) + get_size_tree(tree -> right);
 }
 
-uchar get_trash(HASH* hash, lli* frequence)
+uchar get_trash(HASH* hash, lli* frequence) 
 {
     lli sum = 0; 
 

@@ -18,7 +18,8 @@ typedef struct priority_queue PRIORITY_QUEUE;
 
 // NO DE FILA E DE ARVORE
 
-struct node {
+struct node 
+{
     lli priority;
     void* caracter; // uchar
     NODE* next; 
@@ -28,21 +29,24 @@ struct node {
 
 // FILA DE PRIORIDADE
 
-struct priority_queue {
+struct priority_queue 
+{
     lli size;
     NODE* head; 
 };
 
 // NO DE HASH
 
-struct element {
+struct element 
+{
     int size; 
     void* code; // ushort
 };
 
 // HASH
 
-struct hash_table {
+struct hash_table 
+{
     ELEMENT* array[256];
 };
 

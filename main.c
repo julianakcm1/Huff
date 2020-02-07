@@ -1,7 +1,7 @@
 #include "menu.c"
 
-int main() {
-
+int main() 
+{
     menu();
 
     return 0;
